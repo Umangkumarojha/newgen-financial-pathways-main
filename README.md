@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+🏦 New Gen Investments – Expert Mutual Fund Guidance
 
-## Project info
+🚀 A modern React + TypeScript web application built with Vite, TailwindCSS, and shadcn-ui.
+This project provides expert mutual fund guidance and a sleek user-friendly interface to help users start their financial journey.
 
-**URL**: https://lovable.dev/projects/32e0d12d-4773-4338-a895-7e6c76aaa163
+📌 Features
 
-## How can I edit this code?
+💡 Expert Financial Guidance – Focused on personalized mutual fund insights
 
-There are several ways of editing your application.
+⚡ Vite + React + TypeScript – Fast, scalable frontend setup
 
-**Use Lovable**
+🎨 TailwindCSS + shadcn-ui – Beautiful, customizable UI components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/32e0d12d-4773-4338-a895-7e6c76aaa163) and start prompting.
+🔄 React Query – Data fetching and state management
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Recharts Integration – For interactive financial data visualization
 
-**Use your preferred IDE**
+🗂️ Organized Project Structure – Easy to maintain and scale
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Vite
+ – Build tool
 
-Follow these steps:
+React 18
+ – UI framework
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+TypeScript
+ – Static typing
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Tailwind CSS
+ – Utility-first CSS
 
-# Step 3: Install the necessary dependencies.
-npm i
+shadcn-ui
+ – Accessible UI components
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Radix UI
+ – Headless UI primitives
+
+React Query
+ – Data fetching & caching
+
+Recharts
+ – Charts & graphs
+
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Run Development Server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The app will be available at: http://localhost:5173/
 
-**Use GitHub Codespaces**
+4️⃣ Build for Production
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+5️⃣ Preview Production Build
+npm run preview
 
-## What technologies are used for this project?
+📂 Project Structure
+.
+├── public/              # Static assets
+├── src/                 # Application source code
+│   ├── components/      # UI components
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   ├── pages/           # Page components
+│   └── main.tsx         # App entry point
+├── index.html           # Root HTML file
+├── package.json         # Dependencies & scripts
+├── tailwind.config.ts   # Tailwind config
+├── postcss.config.js    # PostCSS config
+└── eslint.config.js     # ESLint rules
 
-This project is built with:
+🤝 Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are welcome! 🎉
 
-## How can I deploy this project?
+Fork the project
 
-Simply open [Lovable](https://lovable.dev/projects/32e0d12d-4773-4338-a895-7e6c76aaa163) and click on Share -> Publish.
+Create a new branch: git checkout -b feature/my-feature
 
-## Can I connect a custom domain to my Lovable project?
+Commit your changes: git commit -m "Add my feature"
 
-Yes, you can!
+Push to your branch: git push origin feature/my-feature
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Open a Pull Request
